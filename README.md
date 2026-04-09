@@ -1,3 +1,5 @@
+Revisar la ultima version llamada Correccion 
+
 📊 Dash_Visualizacion
 Dashboard interactivo de visualización de datos desarrollado con Plotly Dash y Python.
 
