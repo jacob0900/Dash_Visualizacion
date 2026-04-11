@@ -1,59 +1,9 @@
-Revisar la ultima version llamada Correccion 
+📊 Dash_Visualizacion es un proyecto académico de visualización interactiva de datos desarrollado con Plotly Dash y Python, enfocado en mostrar análisis estadísticos y resultados sobre el Banco de la República de Colombia, con el objetivo de hacer más accesible la información económica y financiera mediante dashboards reproducibles.
 
-📊 Dash_Visualizacion
-Dashboard interactivo de visualización de datos desarrollado con Plotly Dash y Python.
+🚀 Para ejecutarlo localmente debes clonar el repositorio con git clone https://github.com/jacob0900/Dash_Visualizacion.git y entrar en la carpeta, crear un entorno virtual (python -m venv venv y activarlo con venv\Scripts\activate en Windows o source venv/bin/activate en Mac/Linux), instalar las dependencias con pip install -r requirements.txt y correr la aplicación con python app.py para abrirla en tu navegador en 👉 http://127.0.0.1:8050.
 
-🚀 Cómo ejecutarlo localmente
-Sigue estos pasos para descargar el proyecto y correrlo en tu propia computadora.
+✏️ Para modificar el código abre el proyecto en tu editor favorito (por ejemplo VS Code con code .), los archivos principales son app.py (layout y callbacks del dashboard), requirements.txt (librerías necesarias) y la carpeta assets/ (CSS e imágenes). Para ver los cambios reflejados automáticamente asegúrate de que app.run(debug=True) esté activo.
 
-✅ Requisitos previos
-Asegúrate de tener instalado lo siguiente antes de comenzar:
-HerramientaVersión mínimaDescargaPython3.8 o superiorpython.orgGitCualquier versión recientegit-scm.com
+⚠️ Problemas comunes: si python no se reconoce como comando, reinstala Python y marca Add to PATH; si aparece No module named dash, activa el entorno virtual y reinstala dependencias; si el puerto 8050 está ocupado, cambia el puerto en app.py con app.run(debug=True, port=8051) y accede a http://127.0.0.1:8051.
 
-💡 Windows: Durante la instalación de Python, marca la opción "Add Python to PATH".
-
-Verifica que estén correctamente instalados abriendo una terminal y ejecutando:
-bashpython --version
-git --version
-
-📥 Instalación
-1. Clona el repositorio
-bashgit clone https://github.com/jacob0900/Dash_Visualizacion.git
-cd Dash_Visualizacion
-2. Crea un entorno virtual
-bash# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Mac / Linux
-python3 -m venv venv
-source venv/bin/activate
-
-Sabrás que el entorno está activo cuando veas (venv) al inicio de la línea en tu terminal.
-
-3. Instala las dependencias
-bashpip install -r requirements.txt
-4. Ejecuta la aplicación
-bashpython app.py
-Abre tu navegador y ve a 👉 http://127.0.0.1:8050
-
-✏️ Cómo modificar el código
-Abre el proyecto en tu editor favorito. Si usas VS Code:
-bashcode .
-Los archivos principales son:
-ArchivoDescripciónapp.pyArchivo principal: layout y callbacks del dashboardrequirements.txtLibrerías necesariasassets/CSS, imágenes y archivos estáticos
-Para ver los cambios reflejados automáticamente en el navegador, asegúrate de que la última línea de app.py tenga el modo debug activo:
-pythonapp.run(debug=True)
-
-⚠️ Problemas comunes
-python no se reconoce como comando
-→ Reinstala Python y marca la opción "Add Python to PATH", o usa python3 en su lugar.
-No module named dash
-→ El entorno virtual no está activo. Actívalo con el comando del paso 2 y repite pip install -r requirements.txt.
-El puerto 8050 ya está en uso
-→ Cambia el puerto en app.py: app.run(debug=True, port=8051) y accede a http://127.0.0.1:8051.
-
-💾 Guardar tus cambios
-bashgit add .
-git commit -m "Descripción de los cambios"
-git push
+💾 Para guardar 
